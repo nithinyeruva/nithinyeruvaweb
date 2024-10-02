@@ -1,0 +1,59 @@
+body {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* Flexbox container for menu items */
+.menu {
+  display: flex;
+  justify-content: space-around; /* Evenly space the items */
+  position: fixed;
+  z-index: 2000;
+  padding-top: 500px;
+  width: 100%;
+}
+
+.name, .intro {
+  font-family: sans-serif;
+  font-style: italic;
+  color: wheat;
+  position: fixed;
+  z-index: 2000;
+  padding-left: 50px;
+  font-weight: lighter;
+}
+
+.name {
+  padding-top: 300px;
+  font-size: xxx-large;
+}
+
+.intro {
+  padding-top: 350px;
+  font-size: xxx-large;
+}
+
+/* Menu items styling */
+.menu-item {
+  font-family: sans-serif;
+  font-style: italic;
+  color: wheat;
+  font-weight: lighter;
+  font-size: x-large;
+  transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+a.menu-item {
+  text-decoration: none; /* Removes the underline from the link */
+  color: wheat; /* Ensures the text color matches the other items */
+}
+
+/* Hover effect for menu items */
+.menu-item:hover {
+  color: #000000; /* Change text color on hover */
+}
+
+a.menu-item:hover {
+  background-color: wheat; /* Background highlight on hover */
+  border-radius: 3px; /* Rounded corners for the highlight */
+}

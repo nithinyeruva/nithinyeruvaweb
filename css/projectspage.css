@@ -1,0 +1,172 @@
+body {
+  color: #ffffff;
+  background-color: #659dbd;
+}
+
+
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 15px 0;
+  z-index: 2000;
+  font-family: sans-serif;
+  font-style: italic;
+  padding-left: 7px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.header-title{
+  font-size: x-large;
+  padding-left: 10px;
+}
+
+.header-title a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-title a:hover{
+  color: wheat;
+  text-decoration: blink;
+}
+
+.slash {
+  color: wheat;
+  font-size: xx-large;
+  position: fixed;
+  left: 448px;
+  top: 11px;
+  transform: rotate(0deg);
+
+}
+
+
+.projects-link {
+  font-size: x-large;
+  padding-left: 20px;
+}
+.projects-link a{
+  color: white;
+  text-decoration: none;
+}
+.projects-link a:hover {
+  color: wheat;
+  text-decoration: blink;
+
+}
+
+
+.fixed-header img {
+  right: 0;
+  padding-right: 4px;
+  padding-top: 4px;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  z-index: 2005;
+}
+
+.project1 {
+  font-family: sans-serif;
+  font-style: italic;
+  color: wheat;
+  position: fixed;
+  z-index: 2000;
+  padding-top: 50px;
+  font-weight: normal;
+  font-size: x-large;
+}
+
+.what1cad img{
+  width: 350px;
+  position: fixed;
+  padding-top: 160px;
+  padding-left: 10px;
+}
+
+.what0 {
+  font-family: sans-serif;
+  font-style: italic;
+  position: fixed;
+  z-index: 2000;
+  padding-top: 400px;
+  padding-left: 10px;
+  font-size: large;
+  color: wheat;
+}
+
+.what1 {
+  font-family: sans-serif;
+  position: fixed;
+  padding-top: 430px;
+  padding-left: 25px;
+  z-index: 2000px;
+  word-wrap: normal;
+  width: 400px;
+}
+
+
+.inside img{
+  width: 250px;
+  position: fixed;
+  padding-top: 140px;
+  padding-left: 530px;
+}
+
+.how0 {
+  font-family: sans-serif;
+  font-style: italic;
+  position: fixed;
+  z-index: 2000;
+  padding-top: 400px;
+  padding-left: 465px;
+  font-size: large;
+  color: wheat;
+}
+
+.how1 {
+  font-family: sans-serif;
+  position: fixed;
+  padding-top: 430px;
+  padding-left: 480px;
+  z-index: 2000px;
+  word-wrap: normal;
+  width: 400px;
+}
+
+
+.how1pic img{
+  width: 350px;
+  position: fixed;
+  padding-top: 150px;
+  padding-left: 950px;
+}
+
+.results0 {
+  font-family: sans-serif;
+  font-style: italic;
+  position: fixed;
+  z-index: 2000;
+  padding-top: 400px;
+  padding-left: 935px;
+  font-size: large;
+  color: wheat;
+}
+
+.results1 {
+  font-family: sans-serif;
+  position: fixed;
+  padding-top: 430px;
+  padding-left: 950px;
+  z-index: 2000px;
+  word-wrap: normal;
+  width: 400px;
+}
